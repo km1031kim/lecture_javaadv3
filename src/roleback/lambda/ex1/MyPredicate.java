@@ -1,4 +1,4 @@
-package lambda.ex2;
+package roleback.lambda.ex1;
 
 @FunctionalInterface
 public interface MyPredicate {

@@ -1,6 +1,6 @@
-package lambda;
+package lambda.ex2_re;
 
 @FunctionalInterface
 public interface MyFunction {
-    int apply(int a, int b);
+    String apply(String s);
 }

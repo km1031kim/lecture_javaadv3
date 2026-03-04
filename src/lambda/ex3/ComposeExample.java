@@ -2,6 +2,8 @@ package lambda.ex3;
 
 import lambda.MyFunction;
 
+import java.util.Arrays;
+
 public class ComposeExample {
 
     // 고차 함수. f1, f2 라는 두 함수를 인자로 받아, f1을 먼저 적용, f2를 그 결과에 적용하는 새 함수 반환
@@ -10,6 +12,17 @@ public class ComposeExample {
     }
 
     public static void main(String[] args) {
+
+        String a = ";alskjdflkja";
+
+        char[] charArray = a.toCharArray();
+
+
+        for (char c : charArray) {
+            String.valueOf(c).toLowerCase();
+        }
+
+        System.out.println("charArray = " + Arrays.toString(charArray));
 
         // f1, 대문자로 변환
         MyTransfer f1 = String::toUpperCase;

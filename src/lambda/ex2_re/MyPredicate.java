@@ -1,4 +1,4 @@
-package lambda.ex2;
+package lambda.ex2_re;
 
 @FunctionalInterface
 public interface MyPredicate {
